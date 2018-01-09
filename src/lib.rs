@@ -1,3 +1,5 @@
+#![no_std]
+
 extern "C" {
     #[link_name = "abort"]
     fn c_abort() -> !;
